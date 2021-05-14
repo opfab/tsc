@@ -1,0 +1,35 @@
+= TSC Meeting - January 21st, 2021
+
+:sectnums:
+:nofooter:
+:icons: font
+
+== Agenda
+
+. Change TSC meeting frequency
+
+. Add a voting member from Alliander
+
+. Propose topics for future meetings
+
+== Minutes
+
+Participants:: Sjoerd Adema (Alliander), Jeroen Gommans (Alliander), Olivier Voron (RTE-i), César Clause (RTE-i),
+Boris Dolley (RTE), Guillaume Trimbach(RTE), Valérie Longa (RTE), Frédéric Didier (RTE), Hanae Safi (RTE)
+
+. TSC meeting frequency:
++
+TSC meeting participants agreed to organize the TSC every 2 months, instead of monthly.
+
+. Voting Members:
++
+Alliander will nominate its voting member in the next few days.
+
+. Suggested topics for future meetings:
++
+* RTE presents its roadmap for 2021
+* Discuss the future of OpFab: features that matters for the community
+* Could non-voting members propose topics for the TSC meetings?
+* Overview/cartography of existing features
+* Communication plan of OpFab (twitter, linkedIN, twitch…)
+* Growth of OpFab community, what strategy to adopt?

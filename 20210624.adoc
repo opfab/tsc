@@ -1,0 +1,54 @@
+= TSC Meeting - June 24th, 2021
+
+:sectnums:
+:nofooter:
+:icons: font
+
+== Proposed Agenda
+
+=== TSC frequency and topics
+
+.Basis for discussion:
+* Sprint retros
+* Demonstration
+* Decisions regarding major new features / breaking changes
+* Discuss UI mockups
+
+=== Current works
+
+==== Organization management
+
+. Perimeters should now be applied for all cards => Major change, TSC vote needed
+
+==== Becoming an industrial project
+. Focus on security
+* Automatic dependency updates
+* LFX Security Scan
+* Security alerts (logged as issues)
+
+. Automated testing
+* Karate
+* Cypress
+
+. Core Infrastructure Initiative Best Practices
+* https://www.coreinfrastructure.org/programs/best-practices-program/[Best Practices Program]
+* https://bestpractices.coreinfrastructure.org/en/projects/4806[96% of first badge] - work in progress
+
+==== Transparency
+
+What can we do to make the project more transparent and more attractive?
+
+.Propositions
+.. Short term
+* Move technical discussions (in preparation of TSC votes for example) to GitHub Discussions (rather than email)
+* Log bugs and feature requests (from RTE-I for example) to GitHub Issues
+* Other ideas?
+.. Later
+* Move issues (documenting what's actually implemented) from JIRA to GitHub issues as well
+* Other ideas?
+
+=== Proposition of topics for next TSC
+
+== Minutes
+
+To be published

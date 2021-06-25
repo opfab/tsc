@@ -16,11 +16,12 @@
 
 === Current works
 
-==== Organization management
+==== Card Routing
 
 . Perimeters should now be applied for all cards => Major change, TSC vote needed
 
 ==== Becoming an industrial project
+
 . Focus on security
 * Automatic dependency updates
 * LFX Security Scan
@@ -51,4 +52,97 @@ What can we do to make the project more transparent and more attractive?
 
 == Minutes
 
-To be published
+Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Nikko Rinen (Alliander), Frédéric Didier (RTE),
+Boris Dolley (RTE), Benoît Jeanson (RTE), Alexandra Guironnet (RTE), Guillaume Trimbach (RTE)
+
+=== TSC frequency and topics
+
+We all agreed that the TSC should now take place monthly in order to be more transparent, and to give us the opportunity
+to vote on important issues quickly.
+However, we agreed to start this from September, so the TSC meetings for July and August are cancelled.
+
+An email with the proposed agenda will be sent to the TSC mailing list in advance of the meeting, and one with the
+minutes after the meeting.
+The agenda and minutes will be available on the https://opfab.github.io/pages/tsc.html[TSC page] of the OperatorFabric
+website.
+
+****
+TODO @AGU: Cancel invitations
+****
+
+The proposed topics (see above) are of interest, no other proposed recurring topics so far.
+
+****
+TODO @AGU: Check if anyone can write back to the TSC mailing list to propose other topics.
+****
+
+Some of the technical discussions we (Alliander/RTE) have had as ad-hoc meetings in the past could take place during
+the TSC.
+
+=== Current works
+
+==== Card Routing
+
+In order for the card routing process to be more consistent, perimeters need to be taken into account even if the
+card is sent using `GroupRecipients` or `UserRecipients`, which is a breaking change from the current behaviour.
+
+****
+VOTE After discussion, all TSC voting members (JGO on behalf of FvdM) agree with that new
+behaviour.
+****
+
+See issue https://opfab.atlassian.net/browse/OC-1683[OC-1683] for implementation details.
+
+==== Becoming an industrial project
+
+(Very) quick presentation of the topics described above.
+
+Alliander is using Cypress as well => maybe we can share on this topic.
+
+Subject of dynamic testing (blocking us for best practices badge) => discuss https://www.zaproxy.org/[Zaproxy] with GDA
+
+==== Transparency
+
+===== Issue tracking and discussions
+
+Even if the JIRA is technically open, it's not used outside of the core project team as you need to create an account.
+In addition, it is not indexed by search engines the way GitHub issues and discussions are, so it's not easily
+discoverable.
+
+Moving from JIRA & emails to GitHub issues and discussions is not a problem for Alliander. It might actually make
+things easier for current (and new) contributors as they will be able to use their GitHub accounts.
+
+Now we need to decide when and how to move from JIRA to GitHub issues (all at once or sprint by sprint).
+See StackOverflow posts on ways to automate it.
+
+****
+TODO @AGU: Investigate and schedule the move
+****
+
+===== Live discussions
+
+In addition to our issue tracking, we also need to have a communication channel for quick, informal and non-persistent
+communication (e.g. "Something we just merged into develop requires this configuration to start").
+
+So far, this type of information is communicated on the team's Slack channel and usually by email to Alliander
+contributors.
+
+BJE suggested making our team Slack channel public and moving it to the LFEnergy Slack platform in order to make it more
+visible for people joining LFEnergy.
+
+Maybe it would be better (if the LFE allows it) to have 2 channels so "announcement" messages like the above example,
+that are still meaningful for the next few days, don't get drowned out in more "mundane" stuff like "sorry I'll be late
+for the daily meeting".
+
+****
+TODO @AGU: Request the creation of the Slack channel(s) on the LFEnergy Slack and invite everyone.
+****
+
+=== Possible topics for next TSC
+
+* Minimal testing setup for the Kafka connection (ideally automated)
+
+* NRI mentioned in closing that he saw parallel with other projects, maybe that's something that we can discuss further
+in our next meeting?
+
+* Experience with Cypress tests

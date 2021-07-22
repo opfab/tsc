@@ -1,0 +1,48 @@
+= TSC Meeting - September 23rd, 2021
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Status of actions from previous TSC meeting
+
+* Cancelling recurring TSC invitations from Hanae: Not doable, please delete them from your calendars (they're only for 2021)
+* Can anyone write back to the TSC mailing list to propose topics? Checked on the admin interface -> OK
+* Investigate moving from Jira to GitHub issues (script it?) -> we actually even went ahead with it! OK
+* Create and start using Slack channel on the LFEnergy Slack instead of project Slack -> OK
+
+== 20/07/2021 TAC meeting
+
+* LFE has established its own DockerHub account
+* Calls to share any planned project or community meetings that could be interesting for other projects
+* LFE wants to have TFiR do video interviews of all projects, preferably before the end of the year
+** 7/10 minutes long
+** Good opportunity to have promotion material for the project
+** TODO: Prepare possible questions/discussion topics then send an email to marketing@lfenergy.org to get on the schedule
+* Security Working Group
+
+* OperatorFabric Annual Review
+** Share slide deck? Where?
+** Committers file: initialized, future changes will need to be approved by TSC
+** Growth Plan
+** Questions about the geographical visualization of data and PowSyBl/GridSuite
+** MMI mentioned that project SOGNO was presented this year (March) to the conference
+https://www.smartgrid-forums.com/past-presentations[NextGen SCADA Europe 2021], and that it could be a good place to
+present OperatorFabric next year.
+
+== Other possible topics
+
+=> Ask on Slack or mailing list
+
+* Setting up two-factor auth
+* Minimal testing setup for the Kafka connection (ideally automated)
+* NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further
+in our next meeting?
+* Experience with Cypress tests
+
+
+

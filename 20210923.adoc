@@ -38,6 +38,7 @@ present OperatorFabric next year.
 
 => Ask on Slack or mailing list
 
+* Internationalization is curtailing text search possibilities
 * Setting up two-factor auth
 * Minimal testing setup for the Kafka connection (ideally automated)
 * NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further

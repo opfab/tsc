@@ -34,6 +34,25 @@ Proposed Agenda
 https://www.smartgrid-forums.com/past-presentations[NextGen SCADA Europe 2021], and that it could be a good place to
 present OperatorFabric next year.
 
+== Status of current DockerHub use vs limitations (in relation with LFE DockerHub account topic)
+
+=== Image retention
+From https://www.docker.com/blog/docker-hub-image-retention-policy-delayed-and-subscription-updates/[this blog]
+it looks like limitations on image retention as initially announced by DockerHub in late October 2020 are no longer in
+order. All the OperatorFabric versions ever published are still available on DockerHub.
+
+=== Pull rate limit
+200 pulls / 6h for authenticated users (see https://www.docker.com/pricing), 100 for anonymous users.
+Unlikely to be an issue for developers locally.
+Our Travis CI pipeline uses an authenticated users (service account), and has to pull 3 images/build (RabbitMQ, MongoDB
+and Keycloak) so that's over 265 builds / 24h. The number of pulls/build might increase if we parallelize some stages
+of the build but even 9/builds would let us do around 90 builds / 24h.
+
+=== Support for open source projects
+It's possible to
+https://www.docker.com/blog/expanded-support-for-open-source-software-projects/[apply for open source project qualification]
+to raise the pull limit.
+
 == Other possible topics
 
 => Ask on Slack or mailing list
@@ -44,6 +63,8 @@ present OperatorFabric next year.
 * NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further
 in our next meeting?
 * Experience with Cypress tests
+
+
 
 
 

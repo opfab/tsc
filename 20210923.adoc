@@ -28,11 +28,27 @@ Proposed Agenda
 * OperatorFabric Annual Review
 ** Share slide deck? Where?
 ** Committers file: initialized, future changes will need to be approved by TSC
-** Growth Plan
+** Criteria for the different stages: see
+https://wiki.lfenergy.org/display/HOME/Technical+Project+Lifecycle#TechnicalProjectLifecycle-GraduatedStage[Technical Project Lifecycle]
+** Mostly OK with Early Adoption (our current stage) Criteria except growth plan and CII Badge => nearly there
+** But for the next stage (Graduated) we lack diversity in contribution and governance:
++
+****
+Have a defined governing body of at least 5 or more members (owners and core maintainers), of which no more than 1/3
+is affiliated with the same employer. In the case there are 5 governing members, 2 may be from the same employer.
+****
++
+****
+Have a healthy number of contributions or committers from at least three organizations, with any one organization
+not composing more than 50% of the contributions or committers. Committers must be identified within the project in a
+COMMITTERS file.
+****
++
 ** Questions about the geographical visualization of data and PowSyBl/GridSuite
 ** MMI mentioned that project SOGNO was presented this year (March) to the conference
 https://www.smartgrid-forums.com/past-presentations[NextGen SCADA Europe 2021], and that it could be a good place to
 present OperatorFabric next year.
+** Next review : 12/07/2022 (see https://wiki.lfenergy.org/display/HOME/Project+Review+Cycle[Project Review Cycle] on the LFE wiki)
 
 == Status of current DockerHub use vs limitations (in relation with LFE DockerHub account topic)
 
@@ -45,8 +61,8 @@ order. All the OperatorFabric versions ever published are still available on Doc
 200 pulls / 6h for authenticated users (see https://www.docker.com/pricing), 100 for anonymous users.
 Unlikely to be an issue for developers locally.
 Our Travis CI pipeline uses an authenticated users (service account), and has to pull 3 images/build (RabbitMQ, MongoDB
-and Keycloak) so that's over 265 builds / 24h. The number of pulls/build might increase if we parallelize some stages
-of the build but even 9/builds would let us do around 90 builds / 24h.
+and Keycloak) so that's over 130 builds / 12h. The number of pulls/build might increase if we parallelize some stages
+of the build but even 9/builds would let us do around 45 builds / 12h.
 
 === Support for open source projects
 It's possible to

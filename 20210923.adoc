@@ -50,6 +50,17 @@ https://www.smartgrid-forums.com/past-presentations[NextGen SCADA Europe 2021], 
 present OperatorFabric next year.
 ** Next review : 12/07/2022 (see https://wiki.lfenergy.org/display/HOME/Project+Review+Cycle[Project Review Cycle] on the LFE wiki)
 
+== Internationalization is curtailing text search possibilities
+
+Open for discussion https://github.com/opfab/operatorfabric-core/discussions/1702[here].
+
+== Interaction with external devices for sounds
+
+We have started working on this topic. Progress is tracked with
+https://github.com/opfab/operatorfabric-core/milestone/6[this milestone].
+
+== Pause in the release cycle
+
 == Status of current DockerHub use vs limitations (in relation with LFE DockerHub account topic)
 
 === Image retention
@@ -71,9 +82,6 @@ to raise the pull limit.
 
 == Other possible topics
 
-=> Ask on Slack or mailing list
-
-* Internationalization is curtailing text search possibilities
 * Setting up two-factor auth
 * Minimal testing setup for the Kafka connection (ideally automated)
 * NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further

@@ -4,9 +4,9 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+
+Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Frédéric Didier (RTE), Benoît Jeanson (RTE),
+Alexandra Guironnet (RTE), Valére Longa (RTE), Guillaume Trimbach (RTE)
 
 == Status of actions from previous TSC meeting
 
@@ -20,13 +20,21 @@ Proposed Agenda
 * LFE has established its own DockerHub account
 * Calls to share any planned project or community meetings that could be interesting for other projects
 * LFE wants to have TFiR do video interviews of all projects, preferably before the end of the year
+
 ** 7/10 minutes long
 ** Good opportunity to have promotion material for the project
-** TODO: Prepare possible questions/discussion topics then send an email to marketing@lfenergy.org to get on the schedule
+** Prepare possible questions/discussion topics then send an email to marketing@lfenergy.org to get on the schedule
++
+Everyone present agrees that it's an interesting opportunity to generate interest around the project. It doesn't have
+to be one person speaking from a script for the whole video. For past videos LFiR worked weaved small interviews from
+different people into a coherent video. BJE says that SGO can help with this topic (how to talk about the project etc.)
++
+*@ALL* Prepare topics / questions and we can discuss it at our next technical meeting
+
 * Security Working Group
 
 * OperatorFabric Annual Review
-** Share slide deck? Where?
+** Share slide deck? Where? => GitHub.io ?
 ** Committers file: initialized, future changes will need to be approved by TSC
 ** Criteria for the different stages: see
 https://wiki.lfenergy.org/display/HOME/Technical+Project+Lifecycle#TechnicalProjectLifecycle-GraduatedStage[Technical Project Lifecycle]
@@ -54,12 +62,21 @@ present OperatorFabric next year.
 
 Open for discussion https://github.com/opfab/operatorfabric-core/discussions/1702[here].
 
+****
+*VOTE* After discussion, all present TSC voting members agree with the removal of that feature as proposed.
+****
+
 == Interaction with external devices for sounds
 
 We have started working on this topic. Progress is tracked with
 https://github.com/opfab/operatorfabric-core/milestone/6[this milestone].
 
 == Pause in the release cycle
+
+****
+*VOTE* All present TSC voting members agree with a pause in the release cycle (except for bug fixes) until the core
+features for release 3.0.0 (i18n removal and external sound devices) can be delivered.
+****
 
 == Status of current DockerHub use vs limitations (in relation with LFE DockerHub account topic)
 
@@ -80,13 +97,8 @@ It's possible to
 https://www.docker.com/blog/expanded-support-for-open-source-software-projects/[apply for open source project qualification]
 to raise the pull limit.
 
-== Other possible topics
+=> The current limitations are not a problem for the foreseeable future.
 
-* Setting up two-factor auth
-* Minimal testing setup for the Kafka connection (ideally automated)
-* NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further
-in our next meeting?
-* Experience with Cypress tests
 
 
 

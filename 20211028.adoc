@@ -1,0 +1,28 @@
+= TSC Meeting - October 28th, 2021
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Status of actions from previous TSC meeting
+
+
+== Possible topics
+
+* Present the current status of experiments around OpFab in RTE (uses cases, roadmap for production)
+* News about Alliander experiments (service open to more users?)
+* Setting up two-factor auth
+* Minimal testing setup for the Kafka connection (ideally automated)
+* NRI mentioned in closing that he saw parallels with other projects, maybe that's something that we can discuss further
+in our next meeting?
+* Experience with Cypress tests
+* Annual assessment of cybersecurity
+* Growth Plan: ask the community?
+
+
+
+

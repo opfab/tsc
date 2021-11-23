@@ -1,0 +1,30 @@
+= TSC Meeting - November 25th, 2021
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Status of actions from previous TSC meeting
+
+* No pending actions.
+* Voted features have been implemented and released.
+
+== Roadmap Update
+
+== Setting up two-factor auth
+
+== Cyber-security
+
+* Setting up two-factor auth is the last of the actions recommended by the audit
+* We keep working on this topic (through the CII badge requirements for example)
+* Cyber-security training
+
+
+
+
+
+

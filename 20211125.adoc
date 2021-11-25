@@ -4,9 +4,6 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
 
 == Status of actions from previous TSC meeting
 
@@ -15,7 +12,15 @@ Proposed Agenda
 
 == Roadmap Update
 
+https://opfab.github.io/pages/roadmap.html[Link to updated roadmap]
+
+@FDI: Schedule a presentation about dynamic scopes when we the requirements are better defined on our side.
+
 == Setting up two-factor auth
+
+* Already used in Alliander as well.
+* Didn't it become a global GitHub policy recently ? @AGU Check
+* What happens for people outside the organization and with no 2-factor auth that want to submit an issue ? @AGU Check
 
 == Cyber-security
 
@@ -23,7 +28,11 @@ Proposed Agenda
 * We keep working on this topic (through the CII badge requirements for example)
 * Cyber-security training
 
+== Next TSC
 
+* Next TSC in January (cancel the one scheduled on 23/12/21)
+* Request from Alliander to move the meeting (avoid Thursday afternoon and Friday afternoon) => Thursday 9:30 to 10:30?
+@AGU Check with BDO, cancel invite and reschedule.
 
 
 

@@ -1,4 +1,4 @@
-= TSC Meeting - November 25th, 2021
+= TSC Meeting - January  27th, 2021 , 02 pm  
 
 :sectnums:
 :nofooter:
@@ -8,7 +8,17 @@
 Proposed Agenda
 ****
 
-== Status of actions from previous TSC meeting
+== Migration to github actions 
+
+== Presentation of main features introduce by release 3.1.0 / 3.2.0 / 3.3.0 
+
+== Removal of timezone feature 
+
+The feature that permit to change timezone is not used and introduce unnecessary complexity.
+
+Proposal submitted to vote : removal of timezone management feature
+
+== Future evolutions 
 
 
 

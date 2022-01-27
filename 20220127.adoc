@@ -4,7 +4,7 @@
 :nofooter:
 :icons: font
 
-Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Valére Longa (RTE), Olivier Pigeon (RTE), Guillaume Trimbach (RTE) , Olivier Voron (RTE-i)
+Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Valérie Longa (RTE), Olivier Pigeon (RTE), Guillaume Trimbach (RTE) , Olivier Voron (RTE-i)
 
 == Migration to github actions 
 

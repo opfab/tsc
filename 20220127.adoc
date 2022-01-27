@@ -1,29 +1,52 @@
-= TSC Meeting - January  27th, 2021 , 02 pm  
+= TSC Meeting - January  27th, 2022 , 02 pm  
 
 :sectnums:
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Valére Longa (RTE), Olivier Pigeon (RTE), Guillaume Trimbach (RTE) , Olivier Voron (RTE-i)
 
 == Migration to github actions 
 
+Migration done at the end of last year.
+
 == Presentation of main features introduce by release 3.1.0 / 3.2.0 / 3.3.0 
+
+- External Sound System
+- Notify external recipients when one of their cards is deleted
+- Add checkbox to apply filters to timeline or not
+- Remove unused tag feature
+- Permit multiple entity to edit the same card
+- Use publish date to show card on the feed : if card publish date is in user business selected period card will be visible even if card business period does not match with user selected business period.
+- Improve subscription mechanism to be more resilient with cut or slow networks
+- Add sound when user session end and sound activation improvements
+
 
 == Removal of timezone feature 
 
-The feature that permit to change timezone is not used and introduce unnecessary complexity.
+The feature that permit to change timezone is not used and introduce unnecessary complexity , see 
 
 Proposal submitted to vote : removal of timezone management feature
 
+The removal was validated unanimously 
+
 == Future evolutions 
 
+- Dynamic perimeter 
+- Improvement in usercard (automatic response , method to give more information/control to the template )
+- "Timeline following time" feature improvements
 
 
+Potential features proposed by Alliander 
 
+ - Grouping cards
+ - Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
 
+Alliander will initiate discussions on github regarding these subjects.
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on march the 24th at 9:30 Am 
 
 
 

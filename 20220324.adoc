@@ -8,3 +8,34 @@
 Proposed Agenda
 ****
 
+== Presentation of main features introduce by release 3.4.0 / 3.5.0 
+
+- "Timeline following time" feature improvements
+- Dynamic perimeter
+- New Real Time Users screen
+- Remove timezone management
+- Remote logging feature
+- Usercard template interaction improvements 
+
+
+== Main future evolutions 
+
+- Show card acknowledgment in realtime for card emitter.
+- Pinned cards
+- View child cards in archive detail cards
+- Grouping cards in feed
+
+
+== Github discussions  
+
+ - Is checkPerimeterForResponseCard parameter still needed : https://github.com/opfab/operatorfabric-core/discussions/2590
+ - applyChildCards: remove submit button, add acknowledgement button? https://github.com/opfab/operatorfabric-core/discussions/629
+
+
+== Potential features proposed by Alliander 
+
+Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on ... 

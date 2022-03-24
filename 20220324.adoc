@@ -4,9 +4,7 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants:: Gerben Danen (Alliander), Jeroen Gommans (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Valérie Longa (RTE), Olivier Pigeon (RTE), Guillaume Trimbach (RTE) , Cesar Clause (RTE-i)
 
 == Presentation of main features introduce by release 3.4.0 / 3.5.0 
 
@@ -20,22 +18,32 @@ Proposed Agenda
 
 == Main future evolutions 
 
-- Show card acknowledgment in realtime for card emitter.
-- Pinned cards
-- View child cards in archive detail cards
-- Grouping cards in feed
+- Show card acknowledgment in realtime for card emitter(demonstration of feature by RTE , issue https://github.com/opfab/operatorfabric-core/issues/2671 )
+- Pinned cards (see Issue https://github.com/opfab/operatorfabric-core/issues/2742 and issue https://github.com/opfab/operatorfabric-core/issues/2692 ) 
+- View child cards in archive detail cards (already merge in develop branch, issue : https://github.com/opfab/operatorfabric-core/issues/2560 )
+- Grouping cards in feed (demonstration of first development made by Alliander , issue : https://github.com/opfab/operatorfabric-core/issues/2488 )
 
 
 == Github discussions  
 
- - Is checkPerimeterForResponseCard parameter still needed : https://github.com/opfab/operatorfabric-core/discussions/2590
- - applyChildCards: remove submit button, add acknowledgement button? https://github.com/opfab/operatorfabric-core/discussions/629
+ - Is checkPerimeterForResponseCard parameter still needed : https://github.com/opfab/operatorfabric-core/discussions/2590  
+ 
+TSC confirm it is not needed, an issue will be created to remove the feature. 
+
+ - applyChildCards: remove submit button, add acknowledgement button? https://github.com/opfab/operatorfabric-core/discussions/629 
+ 
+TSC confirm the issue is no longer revelant
 
 
 == Potential features proposed by Alliander 
 
-Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
+Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/). Nothing to report since the last meeting
+
+== Misc 
+
+Exchanged on internal use cases between TSC member during the meeting.
+
 
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule on April 21th, 2022 , 09:30 am 

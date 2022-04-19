@@ -1,0 +1,46 @@
+= TSC Meeting - April 21th, 2022 , 09:30 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Presentation of main features introduce by release 3.6.0 
+
+
+- Show card acknowledgment in realtime for card emitter.
+- Pinned cards
+- View child cards in archive detail cards
+- Do not allow the same user to be connected twice at the same time
+
+
+== Main future evolutions 
+
+- Grouping cards in feed
+- New multi-select component: https://github.com/opfab/operatorfabric-core/issues/2868
+- Add an option to consider acknowledgement at the entity level: https://github.com/opfab/operatorfabric-core/issues/2772
+- Find a way to prevent having 2 tabs connected on OpFab with different users 
+
+
+== Dev tools
+
+- New cypress test possibilities implemented on CI github action :  
+  * Option to launch only a subset af test 
+  * Store the screenshots as github artifacts in case of test failing
+- Proposal to use prettier as tool to lint the code
+
+== Github discussions  
+
+Use label Discussion closed / Open discussion 
+
+
+== Potential features proposed by Alliander 
+
+Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on ... 

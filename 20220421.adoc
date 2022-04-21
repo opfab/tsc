@@ -4,26 +4,21 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants:: Gerben Danen (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Jeroen Gommans (Alliander), Jelte Leijenaar (Alliander), Floris van der Meulen (Alliander), Olivier Pigeon (RTE).
 
 == Presentation of main features introduce by release 3.6.0 
 
-
-- Show card acknowledgment in realtime for card emitter.
-- Pinned cards
-- View child cards in archive detail cards
-- Do not allow the same user to be connected twice at the same time
-
-
+- **Show card acknowledgment in realtime** for card emitter.
+- **Pinned cards**  :  Discussion in the meeting regarding the design, Alliander proposed to have the pinned cards on top of the feed. The subject will be discuss on next TSC meeting. In between, one can open a discussion on github.
+- **View child cards in archive detail cards**
+- **Do not allow the same user to be connected twice at the same time** : we do not permit to have the same user connected twice at the same time as for the time being the tool is not supported this use case (it has not be design for it). The option can be activated/deactivated at the instance level. 
+We shared the fact that we may have use cases that need to have the same user connected two times
+(for example mobile + laptop), if it is the case  the solution will have to evolve to permit it (there's no known technical limitation).
+ 
 == Main future evolutions 
 
-- Grouping cards in feed
+- Grouping cards in feed: demonstration form Alliander during the meeting 
 - New multi-select component: https://github.com/opfab/operatorfabric-core/issues/2868
-- Add an option to consider acknowledgement at the entity level: https://github.com/opfab/operatorfabric-core/issues/2772
-- Find a way to prevent having 2 tabs connected on OpFab with different users 
-
 
 == Dev tools
 
@@ -34,13 +29,13 @@ Proposed Agenda
 
 == Github discussions  
 
-Use label Discussion closed / Open discussion 
+We now use labels "Discussion closed" and "Open discussion" to distinguish closed and open discussions.
 
+== Misc 
 
-== Potential features proposed by Alliander 
-
-Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
+For Next TSC, we shall have a look to the roadmap and fix priorities.
 
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule on May 26th, 2022 , 09:30 am 
+

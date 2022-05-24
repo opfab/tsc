@@ -4,9 +4,8 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants:: Cesar Clause (RTE-i), Gerben Danen (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Jeroen Gommans (Alliander), 
+Lisa Hazenoot (Alliander) Jelte Leijenaar (Alliander), Floris van der Meulen (Alliander), Olivier Pigeon (RTE), Guillaume Trimbach(RTE), Olivier Voron (RTE-i)
 
 == Presentation of main features introduce by release 3.7.0 
 
@@ -18,16 +17,38 @@ Proposed Agenda
 
 Prettier is now mandatory to format js, ts, css and scss code.
 
+A pull request will be made to format all existing code.
+
 
 == Potential features proposed by Alliander 
 
-- Introduce geographical maps 
+- Introduce geographical maps (Demonstration of a first implementation done during the meeting)
 - Have the possibility to include external component in the UI  (For example using Micro Frontend : https://micro-frontends.org/)    
 
 == Roadmap and priorities
 
-To be discuss 
+First list of features proposed for roadmap :  
+
+* Enhancement of existing features (sound notifications, timeline, administration screen, smart notifications...) 
+* Mail/SMS notifications : sending the card or a link to the card via mail/SMS.
+* Dynamic scope of responsibilities for operators in realtime 
+* Advanced agenda feature
+* Conference call automatic creation 
+* Provide custom style / look and feel for end user (permit the user to define his specific ui style) 
+* Traceability of user actions (business and cyber-security needs )
+* Advance reminder feature  (Conditional reminder , user define reminder )
+* Add settings profiles : https://github.com/opfab/operatorfabric-core/discussions/1927
+* Substation diagram and network view integration (in coordination with the [GridSuite](https://github.com/gridsuite) project )
+* Geographical view integration
+* Multi-instance
+* Availability on mobile devices
+
+A specific meeting will be schedule to work on this topic. 
+
+== Communication (webinar .... )
+
+Subject to be address on a specific meeting.
 
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule on the 15th of June at 9 am 

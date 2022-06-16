@@ -1,0 +1,27 @@
+= TSC Meeting - June 15th, 2022 , 09:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Frédéric Didier (RTE), Jeroen Gommans (Alliander), Lisa Hazenoot (Alliander) Jelte Leijenaar (Alliander), Floris van der Meulen (Alliander), Guillaume Trimbach(RTE)
+
+
+== Exchange on upcoming features 
+
+- Geographical maps
+- Progressive web app 
+- Ui reload after upgrade 
+- New multiselect component
+
+== Roadmap and priorities
+
+Presentation of roadmap following workshop on June 3th : https://opfab.github.io/pages/roadmap.html 
+
+== Communication 
+
+Proposal of work on communication support to present OperatorFabric. The subject will be discuss on the 27th or 28h of June. 
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on the 2th of September at 9 am.

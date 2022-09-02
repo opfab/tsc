@@ -1,0 +1,42 @@
+= TSC Meeting - September 2th, 2022 , 09:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Freddie Compier (Alliander), Gerben Danen (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Jeroen Gommans (Alliander), Lisa Hazenoot (Alliander) Jelte Leijenaar (Alliander), Olivier Voron (RTE-i)
+
+
+== Presentation of main features introduced by release 3.8.0 and  3.9.X 
+
+- #3025 : Add an option to hide unacknowledge button
+- #2804 : Prevent to have several tabs connected at the same time in the same browser with the same opfab url
+- #3104 : When reload is requested, ask the user to reload via an alert
+- #2950 : Add a geographical map view (Experimental)
+- #3221 : Display all connected users per group on realtime users dashboard
+- #3145 : Provide a way to access all cards in archives/logging screens for admin user
+- Add spinner in a lot of screen in case of slow network
+
+3.9.X is considered a long-term support version, it will be patch if necessary.
+
+== Main feature for future release 3.10.0
+
+- Geomap improvements
+- Provide shared css/js to external applications
+ 
+== Dev tools
+
+Clarification on the process with the renovate tool: when Alliander makes a review of a renovate RP, inform RTE as soon as possible via slack so that RTE can merge. This is to avoid renovate making a change to the PR in the meantime.
+
+== UI improvements to avoid missing information for realtime user 
+
+Proposal : add an information on the top of the feed to inform the user that he received a card(s) that is(are) not visible due to the filters.
+
+== CIGRE
+
+Opfab has been presented by RTE-i at CIGRE meeting in Paris, RTE-i will provide a video of the presentation.
+
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on the 07th of september at 9 am.

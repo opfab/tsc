@@ -1,0 +1,78 @@
+= TSC Meeting - October 7th, 2022 , 09:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+
+Participants:: Gerben Danen (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Jeroen Gommans (Alliander), Lisa Hazenoot (Alliander) Jelte Leijenaar (Alliander), Guillaume Trimbach (RTE), Olivier Voron (RTE-i)
+
+
+== Presentation of main features introduced by release 3.10.X 
+
+GeoMap
+
+* #3452 : Add hover and zoom-to-card on the geomap function
+* #3450 : Geographical map: add a optional chart to display number of cards by severity
+
+Feed : 
+
+* #3623 : Feed filters : red color for the icon in case filtering is activated
+* #3570 : Set default feed filtering and sorting values in web-ui.json
+* #3565 : Add option to sort cards by start and end date
+* #3566 : Add setting to automatically open the first card in list
+* #3331 : Add a possibility to have non filterable notifications
+
+Card detail :
+
+* #3545 : Add a possibility to not close card when user acknowledge
+* #3544 : Add the possibility to hide edit or delete card link
+
+Admin : 
+
+* #3503 : Add export feature for admin screens
+* #3534 : Administration screen : Add in groups popup the list of members
+
+Misc : 
+
+* #3310, #3405 : Provide shared css/js to external applications
+* #3234, #3543 : Refuse sending card if process or state does not exist (feature can be desactivate by configuration)
+
+
+== Next releases main features
+
+* Support for POLYGON geometry when using the geographical map, allowing cards to highlight a region on the map.
+* Make card titles case configurable 
+* Control perimeter when an external application send a card
+* New options for task reminder  (month repetition , week number in month ... )
+* Add some new features regarding geomap 
+
+
+== Use another solution than openstreet map for geo maps (#3525)
+
+It is a future need for RTE (for example to use with ArcGIS ). RTE-i is interested in the feature. Alliander may help. 
+
+
+== RTE Internal end users meeting
+
+Sharing of questions/remarks following  RTE End users meeting 
+
+* Read Only Accounts
+* Position of filters
+* Criticality levels 
+* Connection exclusivity 
+
+
+== New UI
+
+Alliander presented a first draft for a new opfab UI.
+
+== CIGRE
+
+Opfab has been presented by RTE-i at CIGRE meeting in Paris, RTE-i will provide a video of the presentation.
+
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on the 8th of November at 9 am.
+

@@ -1,0 +1,26 @@
+= TSC Meeting - November  08th, 2022 , 09 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Gerben Danen (Alliander), Frédéric Didier (RTE), Jeroen Gommans (Alliander),Ena Jevtic (Alliander), Jelte Leijenaar (Alliander), Guillaume Trimbach (RTE), Olivier Voron (RTE-i)
+
+== Next Release : 3.11.0 
+
+Release schedule on the 15th of november.
+
+== Issues shared during the meeting
+
+- Use operating system notifications:  https://github.com/opfab/operatorfabric-core/issues/3778
+- Activate PWA feature by default on chromium base browser : https://github.com/opfab/operatorfabric-core/issues/3777
+- Advanced reminder feature using RFC 5545 recurrence structure : https://github.com/opfab/operatorfabric-core/issues/3773
+- Automatic deletion of cards after endDate has been reached : https://github.com/opfab/operatorfabric-core/issues/3762
+- Add opfab user roles : https://github.com/opfab/operatorfabric-core/issues/3722
+- Add business logs : https://github.com/opfab/operatorfabric-core/issues/3717
+
+RTE-i may need some security logs, an issue has been created on this topic.
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on the 8th of December at 9 am.

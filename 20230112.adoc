@@ -1,0 +1,26 @@
+= TSC Meeting - January 12th, 2023 , 09:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+
+Participants:: Clement Bouvier-Neveu (RTE), Gerben Danen (Alliander), Frédéric Didier (RTE), Boris Dolley (RTE), Giovanni Ferrari (SoftLab), Jeroen Gommans (Alliander),Liza Hazenoot (Alliander), Valérie Longa(RTE) Olivier Voron (RTE-i)
+
+
+== Connection supervisor 
+
+External module for user connection supervision is now available : https://github.com/opfab/operatorfabric-connection-supervisor
+
+
+== MongoDB - Keycloak 
+
+MongoDB and Keycloak evolutions have major version available, we do need to think of upgrading but it is not urgent. 
+
+== R&D 
+
+RTE R&D is working with other companies on a future UI for control rooms (https://www.irt-systemx.fr/en/projets/cab-cockpit-and-bidirectional-assistant/), screenshots were presented during the meeting. An implementation was made as a demonstration based on the operator-fabric code. 
+
+== Next TSC 
+
+The next TSC meeting is schedule for 9 February at 9 am. 

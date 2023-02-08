@@ -1,0 +1,34 @@
+= TSC Meeting - Feb 09th, 2023 , 09:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Presentation of main features introduce by release 3.12.0 
+
+- Add business logs : https://github.com/opfab/operatorfabric-core/issues/3717
+- Automatic deletion of cards after an expiration date time has been reached : https://github.com/opfab/operatorfabric-core/issues/3762
+- Search filter in the Card Feed : https://github.com/opfab/operatorfabric-core/issues/3768
+- Change opfabRole to permission : https://github.com/opfab/operatorfabric-core/issues/4006
+- Reminder feature using RFC 5545 recurrence structure : https://github.com/opfab/operatorfabric-core/issues/3773
+
+== Dev 
+
+- Work in progress - New software architecture : https://opfab.github.io/documentation/current/architecture/#_software_architecture
+
+
+== Future release 
+
+- Add option entity recipients for information : https://github.com/opfab/operatorfabric-core/issues/4153
+- Add ADMIN_BUSINESS_PROCESS permission for pushing bundles : https://github.com/opfab/operatorfabric-core/issues/3798
+- Activate sound even if feed filters hide the new card : https://github.com/opfab/operatorfabric-core/issues/4134
+- Add new feature in task advanced example (Monthly recurrence) : https://github.com/opfab/operatorfabric-core/issues/3981
+- Show popup with list of cards on the geomap https://github.com/opfab/operatorfabric-core/pull/4160
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on ... 

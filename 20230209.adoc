@@ -4,9 +4,7 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants:: Clement Bouvier-Neveu (RTE), Cesar Clause(RTE-i), Gerben Danen (Alliander), Frédéric Didier (RTE), Giovanni Ferrari (SoftLab), Jeroen Gommans (Alliander), Jelte Leijenaar (Alliander), Valérie Longa(RTE), Olivier Voron (RTE-i), Mokhles ZRIBI (Aprico)
 
 == Presentation of main features introduce by release 3.12.0 
 
@@ -29,6 +27,11 @@ Proposed Agenda
 - Add new feature in task advanced example (Monthly recurrence) : https://github.com/opfab/operatorfabric-core/issues/3981
 - Show popup with list of cards on the geomap https://github.com/opfab/operatorfabric-core/pull/4160
 
+== Miscellaneous items
+
+ - Security enhancement proposed https://github.com/opfab/operatorfabric-core/issues/4199
+ - Alliander will need the OS notification feature (https://github.com/opfab/operatorfabric-core/issues/3778). Before starting the development, a meeting will be organized to clarify the requirements. 
+
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule for 16 March at 10 am.

@@ -1,0 +1,29 @@
+= TSC Meeting - March 16th, 2023 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Clement Bouvier-Neveu (RTE), Gerben Danen (Alliander), Frédéric Didier (RTE),Niek Eggink (Alliander), Giovanni Ferrari (SoftLab), Jeroen Gommans (Alliander), Liza Hazenoot (Alliander), Jelte Leijenaar (Alliander), Olivier Voron (RTE-i)
+
+
+== Features planned for future release 
+
+- Feed filters on the left 
+- Purge of actions logs 
+- Add new field "entityRecipientsForInformation"
+- Scrollable card list in popup of timeline
+- Add GeoJSON layers to map from config (https://github.com/opfab/operatorfabric-core/issues/4280) 
+- Dashboard
+
+
+== Miscellaneous items
+
+ - Linux LFE summit 1-2th June 2023 in Paris: a 30 min OperatorFabric presentation is planned: https://lfenergysummit2023.sched.com/event/1JYOE
+ - Kafka testing:   meeting RTE-Alliander on the 22/03 3pm
+ - Mail feature: future needed for RTE-i use cases 
+ - New feature asked during the meeting: define a specific permission to access log screen 
+
+== Next TSC meeting
+
+Next TSC meeting is schedule for 20 April at 10 am.

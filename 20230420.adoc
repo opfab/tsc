@@ -1,0 +1,46 @@
+= TSC Meeting - April 20th, 2023 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Clement Bouvier-Neveu (RTE), Gerben Danen (Alliander), Frédéric Didier (RTE), Jeroen Gommans (Alliander), Frédéric Kruszyna (RTE)
+
+
+== Presentation of main features introduced by release 3.14.0 
+
+- Card dashboard : https://github.com/opfab/operatorfabric-core/issues/4202
+- Geographical map: Add GeoJSON layers to map from config : https://github.com/opfab/operatorfabric-core/issues/4280
+- Display the feed filters and sort on the left of the screen : https://github.com/opfab/operatorfabric-core/issues/4220
+- Use operating system notifications: https://github.com/opfab/operatorfabric-core/issues/3778
+- It is now possible to push json files in businessconfig/businessdata and to access those files from templates : https://github.com/opfab/operatorfabric-core/issues/4332
+
+== Operator-supervisor
+
+- Add a new feature to send card if entity recipient has not acknowledged : https://github.com/opfab/operatorfabric-supervisor/issues/8
+
+The component will be re-introduce in operatorfabric-core soon 
+
+== Frontend Opfab API  
+
+To have a uniform/structured  interface to exchange between template and opfab, and to be able in the future to exchange with specific UI component Opfab, the current release is introducing an "Opfab API".
+
+It is basically a set of method to exchange with opfab available in the context of the browser. The actual templateGateway and usercardTemplateGateway will be rewrite in the opfab API (backwards compatibility will be provided)
+
+Example : 
+```
+opfab.navigate.showCardInFeed(cardId)
+
+opfab.businessconfig.businessData.get(ressourceName)  
+```
+
+== Main features for future releases
+ 
+- Add a more customizable navbar menu : https://github.com/opfab/operatorfabric-core/issues/4442
+- Add a new back services : cards-external-diffusion : https://github.com/opfab/operatorfabric-core/issues/4396
+- Add a rich text editor for usercard : https://github.com/opfab/operatorfabric-core/issues/4437
+
+
+== Next TSC meeting
+
+Next TSC meeting is schedule for 25 May at 10am

@@ -1,0 +1,37 @@
+= TSC Meeting - May 25th, 20 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::  Gerben Danen (Alliander), Frédéric Didier (RTE), Jeroen Gommans (Alliander),Liza Hazenoot (Alliander)
+
+
+== Presentation of main features for release 3.15.0 
+
+- #4339 : Process, state and processInstanceId can not contain anymore ' # ' , ' ? ' or ' / ' 
+- #4439 : Remove group column from activity area screen choice
+- #4435 : Remove use of groups in realtime screen
+
+== Release 4.0.0 
+
+- Add a more customizable navbar menu : https://github.com/opfab/operatorfabric-core/issues/4442
+- Add a new back services : cards-external-diffusion : https://github.com/opfab/operatorfabric-core/issues/4396
+- Opfab API V1
+- User connection and acknowledgment supervisor 
+- Create usercard as a copy : https://github.com/opfab/operatorfabric-core/issues/4448
+
+
+== Main features for future releases
+ 
+
+- Add a rich text editor for usercard : https://github.com/opfab/operatorfabric-core/issues/4437
+
+
+== Opfab back urls
+
+- Alliander suggests that it would be interesting to standardise the url to access the opfab back API. This would be useful for ease of configuration especially when routing is outsourced outside of the opfab nginx config file (This is the case for Alliander using Ingress in OpenShift).
+
+== Next TSC meeting
+
+Next TSC meeting is schedule for 29 June at 10am

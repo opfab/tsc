@@ -1,0 +1,37 @@
+= TSC Meeting - July 5th, 2023 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants:: Clement Bouvier-Neveu(RTE), Gerben Danen (Alliander), Frédéric Didier (RTE), Hubert Duchatelle (RTE), Giovanni Ferrari (SoftLab), Jeroen Gommans (Alliander), Liza Hazenoot (Alliander), Frédéric Kruzyna (RTE), Olivier Voron (RTE-i)
+
+
+== Patch release 3.15.1 
+
+- Security corrections 
+- See card send by your entities
+
+== Release 4.0.0 
+
+Discuss in previous TSC meeting :
+
+- Add a more customizable navbar menu : https://github.com/opfab/operatorfabric-core/issues/4442
+- Add a new back services : cards-external-diffusion : https://github.com/opfab/operatorfabric-core/issues/4396
+- Opfab API V1
+- User connection and acknowledgment supervisor 
+- Create usercard as a copy : https://github.com/opfab/operatorfabric-core/issues/4448
+
+New :
+
+ - New monitoring/planning screen (for demo only)
+ - Task management refactoring
+ - Configuration simplification
+
+== Preload list of message use case
+ 
+Using user card template and business data feature to provide pre-defined list of message/question for user : demo by RTE
+
+== Next TSC meeting
+
+Next TSC meeting is schedule for 14th September at 10am

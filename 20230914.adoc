@@ -1,0 +1,43 @@
+= TSC Meeting - Sep 14th, 2023 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== Proposed Changes to Voting Members and Chairman
+
+The following changes are under consideration and will be submitted for a vote:
+
+- Boris Dolley is stepping down from the role of TSC Chairman, and Frédéric Didier is nominated as his replacement for TSC Chairman.
+- Clement Bouvier (RTE) has been nominated as a voting member to replace Alexandra Guironnet.
+- Frédéric Kruzyna (RTE) has been nominated as a voting member to replace Boris Dolley.
+
+== Future release 
+
+Release 4.0 is schedule for the end of september 
+
+In addition to the developments presented in previous TSC meetings, this version will encompass the following enhancements:
+
+- A rate limiter for card sending
+- In archives view / export : removed field business period, added fields publisher, entity recipients and process
+- A tooltip component for template or external apps
+- Remove "Write" right for perimeters
+- Add a tooltip to show user connected entities
+- In grouped cards, the blue arrow will no longer be displayed if there's only one card
+- Security Improvements: This release includes security enhancements resulting from a security audit conducted by ENTSOE.
+
+== Technical point
+
+The Renovate bot regularly proposes new versions of OpenLayer. The process for validating a new version is a topic open for discussion.
+
+== Roadmap 
+
+The roadmap has been updated on the website to reflect the latest developments. It appears that we may need to begin work on a new version of the roadmap.
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on ... 

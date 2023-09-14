@@ -4,21 +4,28 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants::
 
-== Proposed Changes to Voting Members and Chairman
+- Clement Bouvier-Neveu(RTE)
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Jeroen Gommans (Alliander)
+- Liza Hazenoot (Alliander)
+- Frédéric Kruzyna (RTE)
+- Olivier Voron (RTE-i)
 
-The following changes are under consideration and will be submitted for a vote:
 
-- Boris Dolley is stepping down from the role of TSC Chairman, and Frédéric Didier is nominated as his replacement for TSC Chairman.
-- Clement Bouvier (RTE) has been nominated as a voting member to replace Alexandra Guironnet.
-- Frédéric Kruzyna (RTE) has been nominated as a voting member to replace Boris Dolley.
+== Changes to Voting Members and Chairman
+
+
+- Boris Dolley is stepping down from the role of TSC Chairman, and Frédéric Didier  has been elected as his replacement for TSC Chairman.
+- Clement Bouvier (RTE) has been elected as a voting member to replace Alexandra Guironnet.
+- Frédéric Kruzyna (RTE) has been elected as a voting member to replace Boris Dolley.
 
 == Future release 
 
-Release 4.0 is schedule for the end of september 
+Release 4.0 is scheduled for the end of september. 
 
 In addition to the developments presented in previous TSC meetings, this version will encompass the following enhancements:
 
@@ -28,16 +35,30 @@ In addition to the developments presented in previous TSC meetings, this version
 - Remove "Write" right for perimeters
 - Add a tooltip to show user connected entities
 - In grouped cards, the blue arrow will no longer be displayed if there's only one card
-- Security Improvements: This release includes security enhancements resulting from a security audit conducted by ENTSOE.
+- Security Improvements: This release includes security enhancements resulting from a security audit conducted by ENTSOE (Coverity tool is used to do the audit) . The commit related to these security improvements are labelled as follow: "Commit text (Ref audit : CID:XXXX)"
+
+== Security of dependencies 
+
+We are monitoring the security of opfab dependencies through three tools on GitHub:
+
+- MenBold, which automatically pushes issues (https://www.mend.io/free-developer-tools/bolt/).
+- Dependabot alerts (https://github.com/opfab/operatorfabric-core/security/dependabot).
+- Anchor container scans are initiated nightly (https://github.com/opfab/operatorfabric-core/security/code-scanning).
+
 
 == Technical point
 
-The Renovate bot regularly proposes new versions of OpenLayer. The process for validating a new version is a topic open for discussion.
+The Renovate bot regularly proposes new versions of OpenLayer :
+
+- Minor versions can be safety merged if Github CI is passing
+- Major versions require manual testing before merging.
 
 == Roadmap 
 
-The roadmap has been updated on the website to reflect the latest developments. It appears that we may need to begin work on a new version of the roadmap.
+The roadmap has been updated on the website to reflect the latest developments. It appears that we may need to begin work on a new version of the roadmap.  
+
+The roadmap will be discussed on next TSC meeting.
 
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule for the 19th of october at 10 AM.

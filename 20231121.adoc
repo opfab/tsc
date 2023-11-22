@@ -1,0 +1,54 @@
+= TSC Meeting - Nov 22th, 2023 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Clement Bouvier-Neveu(RTE)
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Jeroen Gommans (Alliander)
+- Liza Hazenoot (Alliander)
+- Frédéric Kruzyna (RTE)
+- Valérie Longa (RTE)
+
+
+== Archives cards slow 
+
+Alliander experienced some slowdown when inserting cards in the archives. To address this issue, the following actions have been taken:
+
+- An index on parentCardId has been set in the archives-cards MongoDB collection.
+- A pull request (PR) will be made by RTE to set an index on processInstanceId in the archives-cards MongoDB collection.
+
+== Handling security updates 
+
+Due to security concerns, it is necessary to frequently release new versions with dependency upgrades. The objectives for releasing patch versions are as follows:
+
+ - Critical vulnerabilities that affect the operator fabric should be patched within 2 days.
+ - High vulnerabilities that affect the operator fabric should be patched within a week.
+ - For low/medium vulnerabilities, there are no specific objectives, but they should be integrated into the develop branch as soon as possible.
+
+
+When implementing a patch version, the following steps should be followed:
+
+ - Create a PR on the hotfix branches for supported releases (currently 3.15 and 4.0).
+ - Create a PR on the develop branch.
+
+Before making a patch release, it is recommended to discuss it via Slack.
+
+The releases are currently handled by RTE. However, if Alliander wishes to contribute to this task, we can schedule a dedicated meeting to discuss the release process and open the possibility for some people at alliander to perform releases.
+
+We can add issues in GitHub for security dependencies, especially if we cannot perform the upgrade. Issues are usually created automatically via Mend Dependabot.
+
+We should be aware of potential conflicts when forcing transitive dependency versions.
+
+== Release Candidate
+
+The next release of opfab will be a release candidate. Doing so will permit us to obtain the openSSF best practice badge (https://www.bestpractices.dev/en)
+
+== Next TSC meeting
+
+Next TSC meeting is schedule for the 10th of january at 10 AM.

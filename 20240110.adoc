@@ -1,0 +1,53 @@
+= TSC Meeting - Jan 10th, 2024 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Jeroen Gommans (Alliander)
+- Liza Hazenoot (Alliander)
+- Frédéric Kruzyna (RTE)
+- Valérie Longa (RTE)
+- Guillaume Trimbach (RTE)
+- Olivier Voron (RTE-i)
+
+== Last Release 
+
+Release 4.1.0 was completed at the end of December. 
+
+We are currently supporting two versions of the software: 
+
+- 3.15.5: The LTS (Long Term Support) version 
+- 4.1.0: The latest version
+
+For more details, visit https://github.com/opfab/operatorfabric-core/releases/tag/4.1.0.RELEASE.
+
+== Next Release
+
+For features already developed for the next release, visit https://github.com/opfab/release-notes/blob/master/release_notes.4.2.0.md.
+
+=== Deprecated Template Methods
+
+The deprecated template methods (methods templateGateway.XX and userTemplateGateway.XX) will be removed in the next release.
+
+=== Release Note 
+
+Starting with the next release, we will include updates to dependencies in the release notes. This only concerns dependencies that are in the production scope (i.e., not test/dev dependencies).
+
+== Client Library 
+
+We currently publish the client library for Java on Maven Central with every release. However, this process is time-consuming and not easily automated. We should discuss whether it is still necessary and explore alternative options.
+
+After discussion, it appears that the card object is widely used. However, some objects may not be necessary, and we may remove some in a future release.
+
+== Next TSC Meeting
+
+The next TSC meeting is scheduled for the 28th of February at 10 am.

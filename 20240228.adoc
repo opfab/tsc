@@ -1,0 +1,61 @@
+= TSC Meeting - Feb 28th, 2024 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Clément Bouvier (RTE)
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Frédéric Kruzyna (RTE)
+- Valérie Longa (RTE)
+- Olivier Voron (RTE-i)
+
+== MongoDB Support 
+
+Currently, we support MongoDB starting from version 4.0.0. Should we continue supporting this version, or upgrade to 4.4.0 or 5.X.X?
+
+Alliander will verify their required version (the production version is Amazon DocumentDB).
+
+RTE-i will also confirm their required version.
+
+
+== Next Release 
+
+The upcoming release, version 4.2.0, has a release candidate available.
+
+Release notes: https://github.com/opfab/release-notes/blob/master/release_notes.4.2.0.md 
+
+== Enforcing TypeScript Coding Style 
+
+ESLint and Prettier formatting are now mandatory for project builds.
+
+== OpenSSF Badge 
+
+
+Since December 2023, we have achieved the OpenSSF badge at the passing level (https://www.bestpractices.dev/en/projects/4806
+). Our goal is to reach the silver level by year-end. This involves:
+
+ - Docker image signing 
+ - Providing a secure installation process, which includes:
+    - HTTPS usage
+    - Separation of configuration files for secrets
+ - Accessibility improvement and/or documentation
+ - Security process documentation 
+ - Achieving a code coverage of 80% (current coverage is 60%, which only measures unit test coverage, not integration or e2e test coverage)
+
+
+== Security audit by LF Energy
+
+We have engaged a security audit by LF Energy, to be conducted by a third-party provider. See https://ostif.org/
+
+== Indexes in mongoDB 
+
+We propose adding a warning in migration guide when adding index in mongoDB in a new release, it could end up with slowdowns in the production environnement when the concerned collection is large.
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on 3th of April 2024, 10:00 am

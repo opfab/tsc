@@ -1,0 +1,45 @@
+= TSC Meeting - April 3th, 2024 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+****
+Proposed Agenda
+****
+
+== MongoDB Support 
+
+Following last TSC, we now support MongoDB starting from version 4.4.0. 
+
+== Last release
+
+
+Version 4.2.1 is now the latest release of the software. Details can be found here: https://github.com/opfab/operatorfabric-core/releases/tag/4.2.0.RELEASE
+
+
+
+== Next release
+
+The next release is planned for the end of April, with a release candidate. 
+
+The existing features are described in the draft release notes: https://github.com/opfab/release-notes/blob/master/release_notes.4.3.0.md
+
+The main features planned for development include:
+
+   - https://github.com/opfab/operatorfabric-core/issues/6181
+   - https://github.com/opfab/operatorfabric-core/issues/6183
+   - Features to enhance the monitoring process screen 
+
+== 3.15.5 Release support
+
+Is there a need for a 3.15.6 release? See: https://github.com/opfab/operatorfabric-core/pull/6009
+
+
+== Security documentation 
+
+Security documentation is now available at https://opfab.github.io/documentation/current/security/. 
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on ... 

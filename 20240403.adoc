@@ -4,9 +4,14 @@
 :nofooter:
 :icons: font
 
-****
-Proposed Agenda
-****
+Participants::
+
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Valérie Longa (RTE)
+- Olivier Voron (RTE-i)
+
 
 == MongoDB Support 
 
@@ -30,16 +35,34 @@ The main features planned for development include:
    - https://github.com/opfab/operatorfabric-core/issues/6181
    - https://github.com/opfab/operatorfabric-core/issues/6183
    - Features to enhance the monitoring process screen 
+   - Add Kafka support for card action field (https://github.com/opfab/operatorfabric-core/issues/6008)
 
 == 3.15.5 Release support
 
-Is there a need for a 3.15.6 release? See: https://github.com/opfab/operatorfabric-core/pull/6009
+There is currently no immediate need for a 3.15.6 release as there are no dependencies requiring security patches.
 
+
+== OperatorFabric interface 
+
+A end user ask for either a Python client library or a RabbitMQ connector to exchange card.
+
+Python could be an opportunity to develop a client library for the OperatorFabric API.
+
+RabbitMQ does not seems to be interesting for the moment as we have a Kafka connector.
 
 == Security documentation 
 
 Security documentation is now available at https://opfab.github.io/documentation/current/security/. 
 
+
+== Security Improvements
+
+To enhance security, we should focus on the following areas:
+
+- Docker signing: Implement a process to sign Docker images to ensure their authenticity and integrity.
+- Enforcement commit signing: Enforce commit signing to verify the authenticity of code changes.
+- Automated security checks for handlebars templates: Utilize tools like SonarQube to automatically scan handlebars templates for security vulnerabilities.
+
 == Next TSC meeting
 
-Next TSC meeting is schedule on ... 
+Next TSC meeting is schedule on 15th of May, 2024 at 10:00 am.

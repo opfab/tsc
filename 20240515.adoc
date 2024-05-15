@@ -1,0 +1,53 @@
+= TSC Meeting - May 15th, 2024 , 10:00 am  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Valérie Longa (RTE)
+- Chris Tjahjadi (Alliander)
+
+
+== Last release
+
+
+Release Candidate 4.3.0 has been publish on the 26 of April 
+
+Definitive release 4.3.0 should be available in a few days.
+
+This new release comes with examples of build-in templates in the getting started (https://opfab.github.io/documentation/current/getting_started/)
+
+
+== Next release
+
+The next release will be the 4.4.0, no date planned yet .
+
+Some contents for this future release :
+
+- more security logs 
+- business use case demonstrations in Getting Started (inspired by real-world scenarios)
+- allow the possibility to update an existing card by modify only some properties
+- introduce the possibility lo load specific js code on startup to be used by templates
+
+== Routing system 
+
+The actual routing system provide the possibility to send cards to users directly, this possibility should not be used in real use case as the aim of the tool is to address information to entities and not directly to users.
+
+Not useful on Alliander or RTE side, it may be deprecated in the near future.
+
+== Security 
+
+Ongoing security audit by OSTIF (https://ostif.org/)
+
+== LFE Energy Summit 
+
+Proposal to showcase Operator Fabric with a project demo at the September LFE Summit in Brussels.
+
+== Next TSC meeting
+
+Next TSC meeting is schedule on 26th of June 2024, 10:00 am

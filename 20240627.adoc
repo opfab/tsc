@@ -1,0 +1,47 @@
+= TSC Meeting - June 27th, 2024 , 3:00 pm  
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Giovanni Ferrari (SoftLab)
+- Frédéric Kruszyna (RTE)
+- Olivier Voron (RTE-i)
+
+
+== Last release
+
+
+In addition to the features discussed in the previous TSC meeting, the upcoming release will introduce a command-line interface (CLI) to simplify administration tasks. More information can be found at https://opfab.github.io/documentation/archives/SNAPSHOT/docs/single_page_doc.html#_operatorfabric_cli_command_line_interface.
+
+Feature Proposals Discussed:
+
+- Implementing a feature in the CLI to retrieve environment variables (e.g., version, front-end environment name).
+- Adding functionality to the CLI to display in the shell prompt the current working environment (in docker mode) 
+
+The next release, version 4.4.0, is scheduled for July 2024 as a release candidate.
+
+
+== Roadmap 
+
+A need for a multi-instance support has been identified. This feature need to be study more deeply in the next months.
+
+== Python API 
+
+A new repository for interfacing opfab via python has been created.
+
+== Kubernetes setup example 
+
+Alliander may schedule a meeting to discuss the possibility of publishing a Kubernetes setup example on GitHub.
+
+== LFE Energy Summit 
+
+Proposal to showcase Operator Fabric with a project demo at the September LFE Summit in Brussels accepted by LFE organizers.
+
+== Next TSC meeting
+
+Next TSC meeting is to be scheduled via slack.

@@ -13,7 +13,7 @@ Participants::
 - Olivier Voron (RTE-i)
 
 
-== Last release
+== Next release
 
 
 In addition to the features discussed in the previous TSC meeting, the upcoming release will introduce a command-line interface (CLI) to simplify administration tasks. More information can be found at https://opfab.github.io/documentation/archives/SNAPSHOT/docs/single_page_doc.html#_operatorfabric_cli_command_line_interface.

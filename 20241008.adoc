@@ -1,0 +1,44 @@
+= TSC Meeting - October 08th, 2024 , 11:00 am
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Clément Bouvier-Neveu (RTE)
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Jeroen Gommans (Alliander)
+- Frédéric Kruszyna (RTE)
+- Valérie Longa (RTE)
+- Olivier Voron (RTE-i)
+
+== Security audit results
+
+See https://ostif.org/operatorfabric-audit-complete/ for the results of the security audit.
+
+== Next release (4.5.0)
+
+- Complete version of command line interface (https://opfab.github.io/documentation/archives/SNAPSHOT/docs/single_page_doc.html#_operatorfabric_cli_command_line_interface) 
+- Removal of deprecated features
+  * API method opfab.currentCard.getEntityUsedForUserResponse
+  * keepChildCards card field
+- Removal of VIEW_ALL_ARCHIVES_CARDS and VIEW_ALL_ARCHIVED_CARDS_FOR_USER_PERIMETERS permissions
+- Removal of unused IP address control feature
+- Official version of "Hallway mode" experimental feature 
+- Allow loading a custom handlebars helpers file
+
+The release is not scheduled yet.
+
+== Roadmap 
+
+A need for multi-instance support has been identified, and a first study has been done on the topic.
+
+== Python API 
+
+A first version of the API is available: https://github.com/opfab/pyopfab-api/tree/pyopfab-api-003
+
+== Next TSC meeting
+
+The next TSC meeting is scheduled for the 17th of December 2024 at 10:00 am.

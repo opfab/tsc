@@ -1,0 +1,45 @@
+= TSC Meeting - December 16th, 2024 , 10:00 am
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Clément Bouvier-Neveu (RTE)
+- Gerben Danen (Alliander)
+- Frédéric Didier (RTE)
+- Jeroen Gommans (Alliander)
+- Olivier Voron (RTE-i)
+
+
+== Next release (4.6.0)
+
+- Replace toNotify field with STORE_ONLY_IN_ARCHIVES card Action
+- Add setting to open next card on acknowledgment
+- Allow to create a popup in a card
+- Usercard : 
+    * Add the list of child entities in recipient and recipient for information multiselect 
+    * Usercard preview : show child entities as tooltip
+- Archives/Logging: 
+    * Permit to choose the number of line to display
+    * Add a date range picker
+- Email: 
+    * Add an option to receive a weekly email recap
+    * Permit to receive mail for not notified state in UI
+
+The release is not scheduled yet.
+
+== Assistant screen experimentation
+
+Proof of Concept of an assistant(AI) integration in opfab 
+
+== Grafana integration
+
+Grafana integration as an example in getting started (not visible yet)
+
+== Next TSC meeting
+
+The next TSC meeting is scheduled for the 13 of Feburary 2025 at 11:00 am.
+
+Proposal from RTE-i to present R2D2 project in the next TSC meeting.

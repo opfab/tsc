@@ -1,0 +1,29 @@
+= TSC Meeting - May 6th, 2025 , 02:00 pm
+
+:sectnums:
+:nofooter:
+:icons: font
+
+Participants::
+
+- Frédéric Didier (RTE)
+- Frédéric Kruszyna (RTE)
+- Olivier Voron (RTE-i)
+
+
+== New release (4.7.0)
+
+Main feature : The option to have a custom card list screen has been added. This screen has filtering features and allows to define custom interactions with received cards. Multiple screens can be configured in the same file. It is possible to define columns displaying directly some fields of the cards. The columns can also be filled with a function taking a card field as input. It is also possible to define response buttons to answer or acknowledge multiple cards at once.
+
+== Grafana integration
+
+Grafana advance integration example in progress,  see https://github.com/opfab/opfab-grafana
+
+== Keycloak integration
+
+RTE-i will contribute to improve keycloak integration (mapping keycloak resources and opfab model) 
+
+== Next tsc meeting
+
+The next tsc meeting is scheduled for the 10 of July 2025 at 02:00 pm.
+
